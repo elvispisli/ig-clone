@@ -1,0 +1,19 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    flex: 0.2;
+}
+.feed{
+    flex: 0.55;
+}
+.suggestion{
+    flex: 0.2;
+}

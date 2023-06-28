@@ -1,0 +1,54 @@
+.post__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    margin: 5px;
+}
+
+.header__left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__left > h6{
+    font-size: 19px;
+    padding-left: 10px;
+}
+
+.header__left > span{
+    color: grey;
+    font-size: 15px;
+    padding-left: 10px;
+}s
+
+.post__img{
+    width: 500px;
+}
+
+.post__img > img{
+    width: 95%
+}
+
+.post__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+button{
+    color: white;
+    background: 0;
+    border: 0;
+    padding: 5px;
+}
+button:hover{
+    color: grey;
+}
+
+p{
+    padding: 5px;
+}
